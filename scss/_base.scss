@@ -1,0 +1,29 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap";
+
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+.logoPrincipal {
+	width: 90px;
+}
+
+.navbar {
+	.container-fluid {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		text-align: center;
+		margin: 10px;
+		padding: 15px;
+		border: $border;
+		background-color: #AE847E;
+		text-transform: uppercase;
+		font-family: $fuente;
+		list-style-type: none;
+    }
+}
+
+
+        
