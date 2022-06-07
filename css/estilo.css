@@ -3,16 +3,14 @@
   margin: 0%;
   padding: 0%; }
 
-.logoPrincipal {
-  width: 90px; }
+.tamLogo {
+  width: 120px; }
 
 .navbar .container-fluid {
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  margin: 10px;
-  padding: 15px;
   border: 2px black solid;
   background-color: #AE847E;
   text-transform: uppercase;
@@ -40,7 +38,6 @@ h3 {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  margin: 10px;
   border: 2px black solid;
   background-color: #DAA89B;
   text-transform: uppercase;
@@ -91,10 +88,6 @@ h3 {
   color: black;
   font-family: "Roboto Mono", monospace;
   text-decoration: none; }
-
-.carousel {
-  margin: 15px;
-  padding: 15px; }
 
 .card-img-top:hover {
   filter: grayscale(100%); }

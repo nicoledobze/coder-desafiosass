@@ -5,27 +5,28 @@
 	padding: 0%;
 }
 
-.logoPrincipal {
+.tamLogo {
 	width: 90px;
 }
 
-/*.navbar {
-	.container-fluid {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		text-align: center;
-		margin: 10px;
-		padding: 15px;
-		border: $border;
+.navbar {
+	.colorNavbar {
 		background-color: #AE847E;
-		color: $color-texto;
 		text-transform: uppercase;
 		font-family: $fuente;
-		list-style-type: none;
+		border: $border;
+		font-weight: bold;
+		text-align: center;
+		color: $color-texto;
     }
 	
 }
 
+.fuentes {
+	font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
 
         
