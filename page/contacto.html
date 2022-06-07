@@ -17,30 +17,36 @@
 
 <body>
     <header>
-        <a href="../index.html"> <img src="../img/logo.jpeg" class="logoPrincipal" alt="logo"></a>
         <h1 class="tituloPrincipal">Comunicate con nosotras</h1>
-        <nav class="navbar navbar-expand-lg bg-light">
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg colorNavbar">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="../index.html"><img class="tamLogo rounded-circle" src="../img/logo-removebg-preview.png"
+                        alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div id="navbarText">
-                    <ul class="nav justify-content-center">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link fuentes" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="nosotras.html">Nosotras</a>
+                            <a class="nav-link fuentes" href="../page/nosotras.html">Nosotras</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="menu.html">Menú</a>
+                            <a class="nav-link fuentes" href="../page/menu.html">Menú</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="crea.html">Creá</a>
+                            <a class="nav-link fuentes" href="../page/envios.html">Envíos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="envios.html">Envíos</a>
+                            <a class="nav-link fuentes" href="../page/crea.html">Creá</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fuentes" href="../page/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -61,14 +67,15 @@
                 </div>
                 <textarea class="campo" name="mensaje" id="mensaje" cols="30" rows="10"
                     placeholder="Ingrese su mensaje"></textarea>
-                <input class="botonAsociar botonEnviar" type="submit">
+                <input class="botonForm" type="submit">
+                <input class="botonForm" type="reset">
             </form>
         </section>
     </main>
 
 
     <div class="botonWhatsApp">
-        <a href="https://api.whatsapp.com/send?phone=+541137623725" target="_blank"><img src="../img/logoWhatsapp.png" alt=""></a>
+        <a href="https://api.whatsapp.com/send?phone=+541137623725" target="_blank"><img src="../img/logoWhatsapp.png" alt="Boton acceso a whatsapp"></a>
     </div>
 
     <footer>

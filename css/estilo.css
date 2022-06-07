@@ -93,9 +93,9 @@ h3 {
   filter: grayscale(100%); }
 
 .ubicacion {
-  width: 40vw;
-  margin: 20px 20px;
-  margin-right: 20px;
+  display: flex;
+	justify-content: center;
+  align-content: center;
   border-radius: 4px; }
 
 .form-check {
@@ -132,9 +132,17 @@ h3 {
   padding: 10px;
   margin: 10px auto; }
 
-.botonEnviar {
+.botonForm {
+  color: black;
+  background-color:#AE847E;
+  margin: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
   width: 200px;
-  margin: auto; }
+  margin: auto;}
 
 .colorBoton {
   background-color: #AE847E;
