@@ -93,9 +93,6 @@ h3 {
   filter: grayscale(100%); }
 
 .ubicacion {
-  display: flex;
-	justify-content: center;
-  align-content: center;
   border-radius: 4px; }
 
 .form-check {
